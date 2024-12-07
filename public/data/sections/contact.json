@@ -1,0 +1,168 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+
+        "es": {
+            "title": "Contacto",
+            "title_long_prefix": "No dudes en",
+            "title_long": "**Contácta**me"
+        },
+
+        "fr": {
+            "title": "Contact",
+            "title_long_prefix": "N'hésitez pas à",
+            "title_long": "Me **Contacter**"
+        },
+
+        "cn": {
+            "title": "联系方式",
+            "title_long_prefix": "请不要犹豫",
+            "title_long": "**联系**我"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "es": {"title": "Envíame un **mensaje**"},
+                "fr": {"title": "Envoyez-moi un **message**"},
+                "cn": {"title": "给我发一条**消息**"}
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "es": {"title": "O si **prefieres**..."},
+                "fr": {"title": "Ou si vous **préférez**..."},
+                "cn": {"title": "或者，如果您**喜欢**..."}
+            },
+
+            "items": [
+                {
+                    "value": "-",
+                    "links": [
+                        {"href": "-"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "es": {"title": "Teléfono"},
+                        "fr": {"title": "Téléphone"},
+                        "cn": {"title": "电话"}
+                    }
+                },
+
+                {
+                    "value": "christndzila400@gmail.com, admin@ponaekolo.com, christnd@congolaisdenanjing.com, contact@ndsec24.tech",
+                    "links": [
+                        {"href": "christndzila400@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "cn": {"title": "电子邮件"}
+                    }
+                },
+
+                {
+                    "value": "@christndzila",
+                    "links": [
+                        {"href": "https://linkedin.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"}
+                    }
+                },
+
+                {
+                    "value": "@Christ_ND",
+                    "links": [
+                        {"href": "https://t.me/Christ_ND"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-telegram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Telegram"}
+                    }
+                },
+
+                {
+                    "value": "@rockmail_c",
+                    "links": [
+                        {"href": "https://www.instagram.com/rockmail_c?igsh=MWdkZG1hNWdraXh6OQ%3D%3D&utm_source=qr"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"}
+                    }
+                },
+
+                {
+                    "value": "@ChristND400",
+                    "links": [
+                        {"href": "https://profile.playstation.com/ChristND400"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-playstation",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Playstation"}
+                    }
+                },
+
+                {
+                    "value": "@",
+                    "links": [
+                        {"href": "https://snapchat.com/t/vRSPFV4I"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-snapchat",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Snapchat"}
+                    }
+                }
+            ]
+        }
+    ]
+}

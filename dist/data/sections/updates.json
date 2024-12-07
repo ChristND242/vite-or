@@ -1,0 +1,316 @@
+{
+    "locales": {
+        "en": {
+            "title": "Life recently",
+            "title_menu": "Updates",
+            "title_long_prefix": "Take a look at my",
+            "title_long": "Recent **Updates**"
+        },
+
+        "es": {
+            "title": "Vida Reciente",
+            "title_menu": "Actualizaciones",
+            "title_long_prefix": "Consulta mis",
+            "title_long": "Actualizaciones **Recientes**"
+        },
+
+        "fr": {
+            "title": "Vie Récente",
+            "title_menu": "Mises à Jour",
+            "title_long_prefix": "Découvrez mes",
+            "title_long": "Dernières **Mises à Jour**"
+        },
+
+        "cn": {
+            "title": "最近的生活",
+            "title_menu": "更新",
+            "title_long_prefix": "我的最近",
+            "title_long": "查看**更新**"
+        }
+
+    },
+
+    "articles": [
+        {
+            "id": "fun_facts",
+            "component": "ArticleServices",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-laptop-code",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "6/7",
+                            "info": "Non-stop coding sessions"
+                        },
+                        "es": {
+                            "title": "6/7",
+                            "info": "Sesiones de codificación sin parar"
+                        },
+                        "fr": {
+                            "title": "6/7",
+                            "info": "Sessions de codage non-stop"
+                        },
+                        "cn": {
+                            "title": "6/7",
+                            "info": "不间断编程"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-shield-alt",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "2000+",
+                            "info": "Different dishes eaten"
+                        },
+                        "es": {
+                            "title": "2000+",
+                            "info": "Platos diferentes comidos"
+                        },
+                        "fr": {
+                            "title": "2000+",
+                            "info": "Plats différents mangés"
+                        },
+                        "cn": {
+                            "title": "2000+",
+                            "info": "吃过的不同菜肴"
+                        }
+                    }
+                }, 
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-globe",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "15",
+                            "info": "Conferences attended"
+                        },
+                        "es": {
+                            "title": "15",
+                            "info": "Conferencias asistidas"
+                        },
+                        "fr": {
+                            "title": "15",
+                            "info": "Conférences assistées"
+                        },
+                        "cn": {
+                            "title": "15",
+                            "info": "参加的会议"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code-branch",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "2",
+                            "info": "Major open-source contributions"
+                        },
+                        "es": {
+                            "title": "2",
+                            "info": "Contribuciones importantes de código abierto"
+                        },
+                        "fr": {
+                            "title": "2",
+                            "info": "Contributions majeures en open-source"
+                        },
+                        "cn": {
+                            "title": "2",
+                            "info": "主要的开源贡献"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-glass-whiskey",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "3000+",
+                            "info": "Smoothies consumed to fuel the code"
+                        },
+                        "es": {
+                            "title": "3000+",
+                            "info": "Batidos consumidos para alimentar el código"
+                        },
+                        "fr": {
+                            "title": "3000+",
+                            "info": "Smoothies consommés pour alimenter le code"
+                        },
+                        "cn": {
+                            "title": "3000+",
+                            "info": "喝掉的冰沙杯"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-gamepad",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "380+",
+                            "info": "Games played"
+                        },
+                        "es": {
+                            "title": "380+",
+                            "info": "Juegos jugados"
+                        },
+                        "fr": {
+                            "title": "380+",
+                            "info": "Jeux joués"
+                        },
+                        "cn": {
+                            "title": "380+",
+                            "info": "玩的游戏"
+                        }
+                    }
+                }
+            ]
+        },
+        
+
+        {
+            "id": "updates",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Quick **Fun Facts**" },
+                "es": { "title": "Datos rápidos **Divertidos**" },
+                "fr": { "title": "Faits rapides **Amusants**" },
+                "cn": { "title": "快速**有趣的事实**" }
+            },
+        
+            "items": [
+                {
+                    "dates": {
+                        "start": "09/01/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Learning to play **Music!** 🎶",
+                            "text": "Diving into the world of music, learning how to play the guitar while blending in a little coding during breaks. Balancing tech with a touch of melody!"
+                        },
+                        "es": {
+                            "title": "¡Aprendiendo a tocar **Música**! 🎶",
+                            "text": "Sumergiéndome en el mundo de la música, aprendiendo a tocar la guitarra mientras mezclo un poco de programación durante los descansos. ¡Equilibrando la tecnología con un toque de melodía!"
+                        },
+                        "fr": {
+                            "title": "Apprentissage de la **Musique** ! 🎶",
+                            "text": "Plongée dans le monde de la musique, j'apprends à jouer de la guitare tout en mélangeant un peu de codage pendant les pauses. Équilibrer la technologie avec une touche de mélodie !"
+                        },
+                        "cn": {
+                            "title": "学习**音乐**！🎶",
+                            "text": "沉浸在音乐的世界里，一边学习弹吉他，一边在休息时融入一点编程。用一点旋律平衡科技生活！"
+                        }
+                    }
+                },
+        
+                {
+                    "dates": {
+                        "start": "10/12/2024",
+                        "end": null
+                    },
+                    "links": [
+                        {"string": "see_more", "href": "https://twitch.com"}
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Started my **Twitch channel**! 🎮",
+                            "text": "Launched a new Twitch channel to stream video games, where I share my love for gaming while talking about cybersecurity and tech. Come join the fun, it’s game on!"
+                        },
+                        "es": {
+                            "title": "¡Inicié mi propio **canal de Twitch**! 🎮",
+                            "text": "Lancé un nuevo canal en Twitch para transmitir videojuegos, donde comparto mi amor por los juegos mientras hablo sobre ciberseguridad y tecnología. ¡Únete a la diversión, que comience el juego!"
+                        },
+                        "fr": {
+                            "title": "Création de ma propre **chaîne Twitch** ! 🎮",
+                            "text": "J'ai lancé une nouvelle chaîne Twitch pour diffuser des jeux vidéo, où je partage mon amour pour le gaming tout en parlant de cybersécurité et de technologie. Venez vous amuser, le jeu commence !"
+                        },
+                        "cn": {
+                            "title": "开设了我的**Twitch频道**！🎮",
+                            "text": "开设了一个新的Twitch频道来进行视频游戏直播，在这里我分享对游戏的热爱，同时讨论网络安全和技术。快来加入我们，游戏开始啦！"
+                        }
+                    }
+                },
+        
+                {
+                    "dates": {
+                        "start": "11/05/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Working on a new **AI-powered project**! 🤖",
+                            "text": "Currently developing an AI-powered solution with a touch of humor and a lot of coffee. If the algorithms fail, at least we have a few memes to share!"
+                        },
+                        "es": {
+                            "title": "¡Trabajando en un nuevo **proyecto impulsado por IA**! 🤖",
+                            "text": "Actualmente desarrollando una solución impulsada por IA con un toque de humor y mucha café. Si los algoritmos fallan, ¡al menos tenemos algunos memes para compartir!"
+                        },
+                        "fr": {
+                            "title": "Travail sur un nouveau **projet alimenté par IA** ! 🤖",
+                            "text": "Actuellement en train de développer une solution alimentée par IA avec une touche d'humour et beaucoup de café. Si les algorithmes échouent, au moins nous avons quelques mèmes à partager !"
+                        },
+                        "cn": {
+                            "title": "正在进行新的**AI驱动项目**！🤖",
+                            "text": "目前正在开发一款AI驱动的解决方案，带有一点幽默感和大量咖啡。如果算法失败，至少我们有一些表情包可以分享！"
+                        }
+                    }
+                },
+        
+                {
+                    "dates": {
+                        "start": "12/06/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_more", "href": "#" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Launched my **personal tech blog**! 💻",
+                            "text": "Sharing thoughts on cybersecurity, tech trends, and the occasional rant about ‘how I almost broke the internet’. Stay tuned for my next deep dive into the latest hacking techniques!"
+                        },
+                        "es": {
+                            "title": "¡Lancé mi **blog tecnológico personal**! 💻",
+                            "text": "Compartiendo mis pensamientos sobre ciberseguridad, tendencias tecnológicas y la ocasional queja sobre ‘cómo casi rompo internet’. ¡Estén atentos para mi próxima inmersión en las últimas técnicas de hackeo!"
+                        },
+                        "fr": {
+                            "title": "Lancement de mon **blog technologique personnel** ! 💻",
+                            "text": "Partager mes réflexions sur la cybersécurité, les tendances technologiques et les râleries occasionnelles sur ‘comment j’ai failli casser internet’. Restez à l’écoute pour ma prochaine plongée dans les dernières techniques de hacking !"
+                        },
+                        "cn": {
+                            "title": "开设了我的**个人技术博客**！💻",
+                            "text": "分享关于网络安全、技术趋势的想法，以及偶尔吐槽‘我差点就把互联网弄坏了’。敬请关注我下一篇关于最新黑客技术的深入分析！"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

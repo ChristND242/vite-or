@@ -1,0 +1,379 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+
+        "cn": {
+            "title": "作品集",
+            "title_long_prefix": "请查看",
+            "title_long": "我的**作品集**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Web Apps"},
+                        "es": {"singular": "App", "plural": "Web Apps"},
+                        "fr": {"singular": "App", "plural": "Apps Web"},
+                        "cn": {"singular": "应用程序","plural": "应用程序"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "es": {"singular": "Sitio web", "plural": "Web"},
+                        "fr": {"singular": "Site web", "plural": "Web"},
+                        "cn": {"singular": "网站","plural": "网站"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "cn": {"singular": "工具","plural": "工具"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-shield-alt",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://sfsharing.ndsec24.tech/"}
+                        
+                    ],
+
+                    "locales": {
+                        "en": {
+                            "title": "Secure File sharing",
+                            "text": "A <b>web application</b> developed using <b>Python and Streamlit</b>, created to securely encrypt and share files, ensuring that no third party can access the content.",
+                            "tags": ["Python", "Streamlit"]
+                        },
+                        "es": {
+                            "title": "Compartición de archivos segura",
+                            "text": "Una <b>aplicación web</b> desarrollada utilizando <b>Python y Streamlit</b>, creada para cifrar y compartir archivos de manera segura, asegurando que ninguna tercera parte pueda acceder al contenido.",
+                            "tags": ["Python", "Streamlit"]
+                        },
+                        "fr": {
+                            "title": "Partage de fichiers sécurisé",
+                            "text": "Une <b>application web</b> développée en utilisant <b>Python et Streamlit</b>, créée pour crypter et partager des fichiers de manière sécurisée, garantissant qu'aucune tierce partie ne puisse accéder au contenu.",
+                            "tags": ["Python", "Streamlit"]
+                        },
+                        "cn": {
+                            "title": "安全文件共享",
+                            "text": "一个使用 <b>Python 和 Streamlit</b> 开发的 <b>网页应用程序</b>，旨在安全地加密和共享文件，确保没有第三方可以访问内容。",
+                            "tags": ["Python", "Streamlit"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-globe",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://netspeedtest.ndsec24.tech/"}
+                    ],
+                    
+                    "locales": {
+                        "en": {
+                            "title": "Speed Test webapp",
+                            "text": "A web application developed with <b>Python</b> that tests network speed and checks the <b>ISP</b> in use.",
+                            "tags": ["Python", "Streamlit"]
+                        },
+                        "es": {
+                            "title": "Aplicación web de prueba de velocidad",
+                            "text": "Una aplicación web desarrollada con <b>Python</b> que prueba la velocidad de la red y verifica el <b>ISP</b> en uso.",
+                            "tags": ["Python", "Streamlit"]
+                        },
+                        "fr": {
+                            "title": "Application web de test de vitesse",
+                            "text": "Une application web développée avec <b>Python</b> qui teste la vitesse du réseau et vérifie le <b>Fournisseur d'accès Internet (FAI)</b> utilisé.",
+                            "tags": ["Python", "Streamlit"]
+                        },
+                        "cn": {
+                            "title": "网络测速应用",
+                            "text": "一个使用 <b>Python</b> 开发的网页应用，用于测试网络速度并检查当前使用的 <b>ISP</b>。",
+                            "tags": ["Python", "Streamlit"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-shield-alt",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://encryptmsg.ndsec24.tech/"}
+                    ],
+
+                    
+
+                    "locales": {
+                        "en": {
+                            "title": "Improved Encrypted Messaging Tool",
+                            "text": "A web application created with <b>Python and Streamlit</b>, allowing users to <b>encrypt</b> messages and conversations using advanced encryption methods, designed to maintain the privacy of user communications.",
+                            "tags": ["Python", "Streamlit"]
+                        },
+                        "es": {
+                            "title": "Herramienta de mensajería cifrada mejorada",
+                            "text": "Una aplicación web creada con <b>Python y Streamlit</b>, que permite a los usuarios <b>cifrar</b> mensajes y conversaciones utilizando métodos avanzados de cifrado, diseñada para mantener la privacidad de las comunicaciones del usuario.",
+                            "tags": ["Python", "Streamlit"]
+                        },
+                        "fr": {
+                            "title": "Outil de messagerie cryptée amélioré",
+                            "text": "Une application web créée avec <b>Python et Streamlit</b>, permettant aux utilisateurs de <b>crypter</b> les messages et conversations en utilisant des méthodes de cryptage avancées, conçue pour préserver la confidentialité des communications des utilisateurs.",
+                            "tags": ["Python", "Streamlit"]
+                        },
+                        "cn": {
+                            "title": "改进的加密消息工具",
+                            "text": "一个使用 <b>Python 和 Streamlit</b> 创建的网页应用，允许用户使用先进的加密方法 <b>加密</b> 消息和对话，旨在维护用户通信的隐私。",
+                            "tags": ["Python", "Streamlit"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-users",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://congolaisdenanjing.com/"}
+                    ],
+
+                    
+
+                    "locales": {
+                        "en": {
+                            "title": "CCN",
+                            "text": "A website built with <b>HTML, CSS, and JavaScript</b> for our <b>Congolese Community in Nanjing</b>, designed to highlight our community and its members, while also providing an easy way for new members to get in touch with us.",
+                            "tags": ["HTML", "CSS", "JavaScript"]
+                        },
+                        "es": {
+                            "title": "CCN",
+                            "text": "Un sitio web creado con <b>HTML, CSS y JavaScript</b> para nuestra <b>Comunidad Congolesa en Nanjing</b>, diseñado para resaltar nuestra comunidad y sus miembros, a la vez que proporciona una forma fácil para que los nuevos miembros se pongan en contacto con nosotros.",
+                            "tags": ["HTML", "CSS", "JavaScript"]
+                        },
+                        "fr": {
+                            "title": "CCN",
+                            "text": "Un site web construit avec <b>HTML, CSS et JavaScript</b> pour notre <b>Communauté Congolaise à Nankin</b>, conçu pour mettre en valeur notre communauté et ses membres, tout en offrant un moyen facile pour que les nouveaux membres prennent contact avec nous.",
+                            "tags": ["HTML", "CSS", "JavaScript"]
+                        },
+                        "cn": {
+                            "title": "CCN",
+                            "text": "一个使用 <b>HTML、CSS 和 JavaScript</b> 构建的网站，面向我们在南京的 <b>刚果社区</b>，旨在突出我们的社区及其成员，同时为新成员提供一种轻松的方式与我们联系。",
+                            "tags": ["HTML", "CSS", "JavaScript"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-users",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://ai.congolaisdenanjing.com/"}
+                    ],
+
+                    "locales": {
+                        "en": {
+                            "title": "CCN AI",
+                            "text": "A web app developed with <b>Python, HTML, Tailwind CSS, and JavaScript</b> for our <b>Congolese Community in Nanjing</b>, designed to provide community members with access to various AI models, enabling them to learn and explore the world of AI, which is currently trending. The platform also ensures data security, as we maintain full control over all the information shared within it.",
+                            "tags": ["Python", "HTML", "Tailwind CSS", "JavaScript"]
+                        },
+                        "es": {
+                            "title": "CCN IA",
+                            "text": "Una aplicación web desarrollada con <b>Python, HTML, Tailwind CSS y JavaScript</b> para nuestra <b>Comunidad Congolesa en Nanjing</b>, diseñada para proporcionar a los miembros de la comunidad acceso a diversos modelos de IA, permitiéndoles aprender y explorar el mundo de la IA, que actualmente está en tendencia. La plataforma también asegura la seguridad de los datos, ya que mantenemos el control total sobre toda la información compartida dentro de ella.",
+                            "tags": ["Python", "HTML", "Tailwind CSS", "JavaScript"]
+                        },
+                        "fr": {
+                            "title": "CCN IA",
+                            "text": "Une application web développée avec <b>Python, HTML, Tailwind CSS et JavaScript</b> pour notre <b>Communauté Congolaise à Nankin</b>, conçue pour offrir aux membres de la communauté l'accès à divers modèles d'IA, leur permettant d'apprendre et d'explorer le monde de l'IA, actuellement en vogue. La plateforme garantit également la sécurité des données, car nous maintenons un contrôle total sur toutes les informations partagées à l'intérieur.",
+                            "tags": ["Python", "HTML", "Tailwind CSS", "JavaScript"]
+                        },
+                        "cn": {
+                            "title": "CCN 人工智能",
+                            "text": "一个使用 <b>Python、HTML、Tailwind CSS 和 JavaScript</b> 开发的网页应用，面向我们在南京的 <b>刚果社区</b>，旨在为社区成员提供访问各种人工智能模型的机会，使他们能够学习和探索目前正流行的人工智能世界。该平台还确保数据安全，因为我们对其中共享的所有信息保持完全控制。",
+                            "tags": ["Python", "HTML", "Tailwind CSS", "JavaScript"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://08madnation.pro/"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "08MadNation",
+                            "text": "A website created with <b>HTML, Tailwind CSS, and JavaScript</b> for <b>08MadNation music record label</b>, designed to feature the label, its artists, and their releases, while also allowing artists to book studio sessions for music recording.",
+                            "tags": ["HTML", "Tailwind CSS", "JavaScript"]
+                        },
+                        "es": {
+                            "title": "08MadNation",
+                            "text": "Un sitio web creado con <b>HTML, Tailwind CSS y JavaScript</b> para el <b>08MadNation sello discográfico</b>, diseñado para presentar el sello, sus artistas y sus lanzamientos, mientras también permite a los artistas reservar sesiones de estudio para grabaciones musicales.",
+                            "tags": ["HTML", "Tailwind CSS", "JavaScript"]
+                        },
+                        "fr": {
+                            "title": "08MadNation",
+                            "text": "Un site web créé avec <b>HTML, Tailwind CSS et JavaScript</b> pour le <b>label musical 08MadNation</b>, conçu pour mettre en avant le label, ses artistes et leurs sorties, tout en permettant aux artistes de réserver des sessions en studio pour l'enregistrement de musique.",
+                            "tags": ["HTML", "Tailwind CSS", "JavaScript"]
+                        },
+                        "cn": {
+                            "title": "08MadNation",
+                            "text": "一个使用 <b>HTML、Tailwind CSS 和 JavaScript</b> 创建的网站，为 <b>08MadNation 音乐唱片公司</b>，旨在展示唱片公司、其艺术家及其发行作品，同时允许艺术家预定录音室时间进行音乐录制。",
+                            "tags": ["HTML", "Tailwind CSS", "JavaScript"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-comments",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://forum.ponaekolo.me/"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Forum Pona Ekolo",
+                            "text": "A web app built with <b>Doker, Open Search, Nginx, HTML, Tailwind CSS, JavaScript Defer, and more</b> for <b>Pona Ekolo Community</b>, designed to enable community members to securely share experiences, files, tutorials, culture, thoughts, and more within the platform.",
+                            "tags": null
+                        },
+                        "es": {
+                            "title": "Foro Pona Ekolo",
+                            "text": "Una aplicación web construida con <b>Doker, Open Search, Nginx, HTML, Tailwind CSS, JavaScript Defer y más</b> para la <b>Comunidad Pona Ekolo</b>, diseñada para permitir a los miembros de la comunidad compartir de manera segura experiencias, archivos, tutoriales, cultura, pensamientos y más dentro de la plataforma.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Forum Pona Ekolo",
+                            "text": "Une application web construite avec <b>Doker, Open Search, Nginx, HTML, Tailwind CSS, JavaScript Defer et plus</b> pour la <b>Communauté Pona Ekolo</b>, conçue pour permettre aux membres de la communauté de partager de manière sécurisée des expériences, des fichiers, des tutoriels, de la culture, des pensées et plus encore au sein de la plateforme.",
+                            "tags": null
+                        },
+                        "cn": {
+                            "title": "Pona Ekolo 论坛",
+                            "text": "一个使用 <b>Doker, Open Search、Nginx、HTML、Tailwind CSS、JavaScript Defer 等</b> 构建的网页应用，面向 <b>Pona Ekolo 社区</b>，旨在使社区成员能够在平台内安全地分享经验、文件、教程、文化、想法等内容。",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-users",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://event.ponaekolo.me/"}
+                    ],
+
+                    
+
+                    "locales": {
+                        "en": {
+                            "title": "Event Pona Ekolo",
+                            "text": "A website developed with <b>React, TypeScript</b> for <b>Pona Ekolo Community Event</b>, designed to promote all community events, providing greater visibility and reaching a wider global audience.",
+                            "tags": null
+                        },
+                        "es": {
+                            "title": "Evento Pona Ekolo",
+                            "text": "Un sitio web desarrollado con <b>React, TypeScript</b> para el <b>Evento de la Comunidad Pona Ekolo</b>, diseñado para promover todos los eventos de la comunidad, proporcionando mayor visibilidad y alcanzando una audiencia global más amplia.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Événement Pona Ekolo",
+                            "text": "Un site web développé avec <b>React, TypeScript</b> pour le <b>Événement de la Communauté Pona Ekolo</b>, conçu pour promouvoir tous les événements de la communauté, offrant une meilleure visibilité et atteignant un public mondial plus large.",
+                            "tags": null
+                        },
+                        "cn": {
+                            "title": "Pona Ekolo 事件",
+                            "text": "一个使用 <b>React、TypeScript</b> 开发的网站，面向 <b>Pona Ekolo 社区活动</b>，旨在推广所有社区活动，提供更大的曝光度，并扩大全球受众。",
+                            "tags": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

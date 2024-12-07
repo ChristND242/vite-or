@@ -1,0 +1,84 @@
+{
+    "version": "1.0.2",
+    "animatedCursorEnabled": true,
+    "fullScreenButtonEnabled": true,
+
+    "preloader": {
+        "enabled": true,
+        "title": "Online <b>Resume</b>",
+        "subtitle": "by Christ ND"
+    },
+
+    "profile": {
+        "name": "Christ NDZILA",
+        "stylizedName": "<strong>Christ **NDZILA**</strong>",
+        "logoUrl": "images/svg/logo.svg",
+        "profilePictureUrl": "images/pictures/avatar.jpg",
+
+        "locales": {
+            "en": {"role": "Cyber Security Researcher"},
+            "es": {"role": "Investigador de Seguridad Informática"},
+            "fr": {"role": "Rechercheur de Sécurité Cyberspace"},
+            "cn": {"role": "网络安全研究员"}
+        }
+    },
+
+    "status": {
+        "visible": true,
+        "available": true,
+
+        "locales": {
+            "en": {"message": "Available for freelance!"},
+            "es": {"message": "¡Disponible para freelance!"},
+            "fr": {"message": "Disponible pour freelance !"},
+            "cn": {"message": "可接自由职业工作!"}
+        }
+    },
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
+        }
+    ],
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        },
+
+        {
+            "name": "Español",
+            "id": "es",
+            "flagUrl": "images/flags/es.png"
+        },
+
+        {
+            "name": "Français",
+            "id": "fr",
+            "flagUrl": "images/flags/fr.png"
+        },
+
+        {
+            "name": "中文",
+            "id": "cn",
+            "flagUrl": "images/flags/zh.png"
+        }
+    ],
+
+    "emailjs": {
+        "publicKey": "",
+        "serviceId": "",
+        "templateId": ""
+    }
+}

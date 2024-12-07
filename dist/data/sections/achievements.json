@@ -1,0 +1,179 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        },
+
+        "es": {
+            "title": "Logros",
+            "title_menu": "Logros",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Logros** Profesionales"
+        },
+
+        "fr": {
+            "title": "Réalis",
+            "title_menu": "Réalisations",
+            "title_long_prefix": "Voici",
+            "title_long": "Mes **Réalisations**"
+        },
+
+        "cn": {
+            "title": "职业成就",
+            "title_menu": "职业成就",
+            "title_long_prefix": "以下是",
+            "title_long": "**职业成就**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" },
+                "fr": { "title": "Certifications" },
+                "cn": { "title": "证书" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-life-ring",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "12/01/2020",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "#" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "The **Linux Foundation**",
+                            "text": null
+                        },
+                        "es": {
+                            "text": null
+                        },
+                        "fr": {
+                            "text": null
+                        },
+                        "cn": {
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-certificate",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
+                    },
+                    "dates": {
+                        "start": "12/05/2021",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "#" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**CCF-CSP** Certified",
+                            "text": "CCF Computer Software Proficiency Certification, is the earliest certification in the CCF computer professional qualification certification series"
+                        },
+                        "es": {
+                            "text": "La Certificación de Competencia en Software Informático de la CCF es la certificación más temprana en la serie de certificaciones de calificación profesional informática de la CCF."
+                        },
+                        "fr": {
+                            "text": "La certification de compétence en logiciels informatiques de la CCF est la première certification de la série des certifications de qualification professionnelle en informatique de la CCF."
+                        },
+                        "cn": {
+                            "text": "CCF计算机软件能力认证是CCF计算机专业资格认证系列中最早的认证。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-certificate",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "05/05/2018",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "#" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**HSK 5** Certified",
+                            "text": "The HSK 5 certification is a professional certification in the Chinese language, which is the first professional certification in China."
+                        },
+                        "es": {
+                            "text": "La certificación HSK 5 es una certificación profesional en el idioma chino, que es la primera certificación profesional en China."
+                        },
+                        "fr": {
+                            "text": "La certification HSK 5 est une certification professionnelle en langue chinoise, qui est la première certification professionnelle en Chine."
+                        },
+                        "cn": {
+                            "text": "HSK 5 认证是中文语言的专业认证，是中国的第一个专业认证。"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Awards" },
+                "es": { "title": "Premios" },
+                "fr": { "title": "Récompenses" },
+                "ko": { "title": "수상 내역" }
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": "06/01/2021",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Best Final Year Project** – Medical MR Image Segmentation",
+                            "info": "NJUST",
+                            "text": "Acknowledged for pioneering work in optimizing segmentation of MR images for medical applications, leading to substantial performance enhancements."
+                        },
+                        "es": {
+                            "title": "**Mejor Proyecto de Último Año** – Segmentación de Imágenes Médicas por RM",
+                            "info": "NJUST",
+                            "text": "Reconocido por su trabajo pionero en la optimización de la segmentación de imágenes por resonancia magnética (RM) para aplicaciones médicas, lo que ha llevado a mejoras sustanciales en el rendimiento."
+                        },
+                        "fr": {
+                            "title": "**Meilleur Projet de Dernière Année** – Segmentation d'Images Médicales par IRM",
+                            "info": "NJUST",
+                            "text": "Reconnu pour son travail pionnier dans l'optimisation de la segmentation des images par IRM pour des applications médicales, entraînant des améliorations substantielles des performances."
+                        },
+                        "cn": {
+                            "title": "**最佳毕业设计** – 医学MRI图像分割",
+                            "info": "南京工业大学",
+                            "text": "因在优化医学应用中磁共振成像（MRI）图像分割方面的开创性工作而受到认可，从而显著提升了性能表现。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

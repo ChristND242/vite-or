@@ -1,0 +1,1250 @@
+{
+    "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore",
+            "title_long": "My **Skill Set**"
+        },
+
+        "es": {
+            "title": "Habilidades",
+            "title_long_prefix": "Explora",
+            "title_long": "Mis **Habilidades**"
+        },
+
+        "fr": {
+            "title": "Capacités",
+            "title_long_prefix": "Explorez",
+            "title_long": "Mes **Compétences**"
+        },
+
+        "cn": {
+            "title": "技能",
+            "title_long_prefix": "这是我的",
+            "title_long": "**技能**"
+        }
+
+    },
+
+    "articles": [
+        {
+            "id": "capabilities",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-table-columns",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Website** design",
+                            "text": "I can bring your best ideas into life!"
+                        },
+                        "es": {
+                            "title": "Diseño de **sitios web**",
+                            "text": "¡Puedo hacer realidad tus mejores ideas!"
+                        },
+                        "fr": {
+                            "title": "Conception de **sites web**",
+                            "text": "Je peux donner vie à vos meilleures idées !"
+                        },
+                        "cn": {
+                            "title": "**网站** 设计",
+                            "text": "我可以实现您的最佳创意！"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Database** management",
+                            "text": "I can handle your data effectively!"
+                        },
+                        "es": {
+                            "title": "Gestión de **bases de datos**",
+                            "text": "¡Puedo gestionar tus datos de manera eficaz!"
+                        },
+                        "fr": {
+                            "title": "Gestion de **bases de données**",
+                            "text": "Je peux gérer vos données efficacement !"
+                        },
+                        "cn": {
+                            "title": "**数据库** 管理",
+                            "text": "我可以有效地处理数据！"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-mobile-screen-button",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Active Directory**",
+                            "text": "I can manage and configure Active Directory for seamless user and resource management!"
+                        },
+                        "es": {
+                            "title": "Administración de **Active Directory**",
+                            "text": "¡Puedo gestionar y configurar Active Directory para una gestión fluida de usuarios y recursos!"
+                        },
+                        "fr": {
+                            "title": "Gestion de **Active Directory**",
+                            "text": "Je peux gérer et configurer Active Directory pour une gestion fluide des utilisateurs et des ressources !"
+                        },
+                        "cn": {
+                            "title": "**Active Directory**",
+                            "text": "我可以管理和配置Active Directory，实现无缝的用户和资源管理！"
+                        }
+                    }
+
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-window-restore",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "REST **APIs**",
+                            "text": "I can build API services!"
+                        },
+                        "es": {
+                            "title": "APIs **REST**",
+                            "text": "¡Puedo crear servicios API!"
+                        },
+                        "fr": {
+                            "title": "APIs **REST**",
+                            "text": "Je peux créer des services API !"
+                        },
+                        "cn": {
+                            "title": "REST **API**",
+                            "text": "我可以构建API服务！"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-lock",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Information **Security**",
+                            "text": "I specialize in safeguarding sensitive data, ensuring robust cybersecurity measures and compliance with industry standards."
+                        },
+                        "es": {
+                            "title": "**Seguridad** de la información",
+                            "text": "Me especializo en proteger datos sensibles, asegurando medidas de ciberseguridad robustas y el cumplimiento de los estándares de la industria."
+                        },
+                        "fr": {
+                            "title": "**Sécurité** de l'information",
+                            "text": "Je me spécialise dans la protection des données sensibles, en garantissant des mesures de cybersécurité robustes et la conformité aux normes de l'industrie."
+                        },
+                        "cn": {
+                            "title": "信息 **安全**",
+                            "text": "我专注于保护敏感数据，确保强大的网络安全措施并符合行业标准。"
+                        }
+                    }
+                }
+            ]
+
+        },
+
+        {
+            "id": "backend_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Backend"
+                },
+                "es": {
+                    "title": "Backend"
+                },
+                "fr": {
+                    "title": "Backend"
+                },
+                "cn": {
+                    "title": "后端"
+                }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-node-js",
+                        "faColors": {"bg": "#339933", "fill": "#EEE"}
+                    },
+                    "value": 75,
+                    "dates": {
+                        "start": "01/15/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-python",
+                        "faColors": {"bg": "#306998", "fill": "#EEE"}
+                    },
+                    "value": 78,
+                    "dates": {
+                        "start": "06/20/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "10/10/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-docker",
+                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
+                    },
+                    "value": 61,
+                    "dates": {
+                        "start": "04/15/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-php",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "09/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PHP 8.0+",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-life-ring",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "value": 65,
+                    "dates": {
+                        "start": "07/10/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Kubernetes",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-server",
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": "05/20/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {"bg": "#F05032", "fill": "#111"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "01/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "information_security",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Information Security & Cybersecurity"
+                },
+                "es": {
+                    "title": "Seguridad de la Información y Ciberseguridad"
+                },
+                "fr": {
+                    "title": "Sécurité de l'Information et Cybersécurité"
+                },
+                "cn": {
+                    "title": "信息安全与网络安全"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-network-wired",
+                        "faColors": {"bg": "#007BFF", "fill": "#EEE"}
+                    },
+                    "value": 75,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Network Security",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-aws",
+                        "faColors": {"bg": "#FF9900", "fill": "#EEE"}
+                    },
+                    "value": 70,
+                    "dates": {
+                        "start": "03/09/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cloud Security",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-lock",
+                        "faColors": {"bg": "#1D8B36", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "03/20/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Endpoint Security",
+                            "info": "Focused on safeguarding endpoints like computers and mobile devices, using antivirus software, endpoint detection, and response tools."
+                        },
+                        "es": {
+                            "title": "Seguridad en Endpoints",
+                            "info": "Enfocado en proteger los endpoints como computadoras y dispositivos móviles, utilizando software antivirus, detección de endpoints y herramientas de respuesta."
+                        },
+                        "fr": {
+                            "title": "Sécurité des Points de Terminaison",
+                            "info": "Concentré sur la protection des points de terminaison tels que les ordinateurs et les appareils mobiles, en utilisant des logiciels antivirus, la détection des points de terminaison et des outils de réponse."
+                        },
+                        "cn": {
+                            "title": "端点安全",
+                            "info": "专注于保护终端设备，如计算机和移动设备，使用防病毒软件、端点检测和响应工具。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linux",
+                        "faColors": {"bg": "#333333", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "08/30/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Linux Security",
+                            "info": "Proficient in securing Linux-based systems and servers, implementing access control, patch management, and system hardening techniques."
+                        },
+                        "es": {
+                            "title": "Seguridad en Linux",
+                            "info": "Experto en asegurar sistemas y servidores basados en Linux, implementando control de acceso, gestión de parches y técnicas de endurecimiento del sistema."
+                        },
+                        "fr": {
+                            "title": "Sécurité Linux",
+                            "info": "Compétent dans la sécurisation des systèmes et serveurs basés sur Linux, en mettant en œuvre le contrôle d'accès, la gestion des correctifs et des techniques de durcissement du système."
+                        },
+                        "cn": {
+                            "title": "Linux 安全",
+                            "info": "精通保护基于 Linux 的系统和服务器，实施访问控制、补丁管理和系统加固技术。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-buffer",
+                        "faColors": {"bg": "#2E3A42", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "10/10/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Data Encryption",
+                            "info": "Experienced in implementing data encryption protocols to protect sensitive information both at rest and in transit."
+                        },
+                        "es": {
+                            "title": "Cifrado de Datos",
+                            "info": "Experto en implementar protocolos de cifrado de datos para proteger información sensible tanto en reposo como en tránsito."
+                        },
+                        "fr": {
+                            "title": "Cryptage des Données",
+                            "info": "Expérience dans la mise en œuvre de protocoles de cryptage des données pour protéger les informations sensibles à la fois au repos et en transit."
+                        },
+                        "cn": {
+                            "title": "数据加密",
+                            "info": "有实施数据加密协议的经验，旨在保护静态和传输中的敏感信息。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-key",
+                        "faColors": {"bg": "#2A9D8F", "fill": "#EEE"}
+                    },
+                    "value": 100,
+                    "dates": {
+                        "start": "09/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Identity & Access Management (IAM)",
+                            "info": "In-depth knowledge of managing user identities and controlling access to systems, using best practices and IAM tools."
+                        },
+                        "es": {
+                            "title": "Gestión de Identidad y Accesos (IAM)",
+                            "info": "Conocimiento profundo de la gestión de identidades de usuarios y el control de acceso a los sistemas, utilizando las mejores prácticas y herramientas IAM."
+                        },
+                        "fr": {
+                            "title": "Gestion des Identités et des Accès (IAM)",
+                            "info": "Connaissance approfondie de la gestion des identités des utilisateurs et du contrôle d'accès aux systèmes, en utilisant les meilleures pratiques et les outils IAM."
+                        },
+                        "cn": {
+                            "title": "身份与访问管理 (IAM)",
+                            "info": "深入了解管理用户身份和控制对系统的访问，使用最佳实践和IAM工具。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-cloud-upload-alt",
+                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "04/15/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Disaster Recovery",
+                            "info": "Skilled in implementing disaster recovery plans to ensure business continuity and data protection during unexpected events."
+                        },
+                        "es": {
+                            "title": "Recuperación ante Desastres",
+                            "info": "Experto en la implementación de planes de recuperación ante desastres para garantizar la continuidad del negocio y la protección de los datos durante eventos inesperados."
+                        },
+                        "fr": {
+                            "title": "Récupération après Sinistre",
+                            "info": "Compétent dans la mise en œuvre de plans de récupération après sinistre pour assurer la continuité des affaires et la protection des données lors d'événements imprévus."
+                        },
+                        "cn": {
+                            "title": "灾难恢复",
+                            "info": "擅长实施灾难恢复计划，以确保在突发事件中实现业务连续性和数据保护。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-users",
+                        "faColors": {"bg": "#FF6347", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "07/10/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Security Awareness Training",
+                            "info": "Focused on educating users about security threats and best practices to prevent social engineering attacks, phishing, and other vulnerabilities."
+                        },
+                        "es": {
+                            "title": "Entrenamiento en Conciencia de Seguridad",
+                            "info": "Enfocado en educar a los usuarios sobre las amenazas de seguridad y las mejores prácticas para prevenir ataques de ingeniería social, phishing y otras vulnerabilidades."
+                        },
+                        "fr": {
+                            "title": "Formation à la Sensibilisation à la Sécurité",
+                            "info": "Axé sur l'éducation des utilisateurs aux menaces de sécurité et aux meilleures pratiques pour prévenir les attaques d'ingénierie sociale, le phishing et d'autres vulnérabilités."
+                        },
+                        "cn": {
+                            "title": "安全意识培训",
+                            "info": "专注于教育用户了解安全威胁和最佳实践，以防止社会工程攻击、钓鱼攻击和其他漏洞。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-bug",
+                        "faColors": {"bg": "#D63031", "fill": "#EEE"}
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": "05/20/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Penetration Testing",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {"bg": "#F05032", "fill": "#111"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Version Control (Git)",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+        
+
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Frontend"
+                },
+                "es": {
+                    "title": "Frontend"
+                },
+                "fr": {
+                    "title": "Frontend"
+                },
+                "cn": {
+                    "title": "前端"
+                }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-html5",
+                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
+                    },
+                    "value": 100,
+                    "dates": {
+                        "start": "09/01/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML5",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-css3",
+                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
+                    },
+                    "value": 68,
+                    "dates": {
+                        "start": "01/15/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS3",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "03/10/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "06/20/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-vuejs",
+                        "faColors": {"bg": "#4FC08D", "fill": "#111"}
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": "08/30/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Vue.js",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-bootstrap",
+                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "02/10/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-tailwindcss",
+                        "faColors": {"bg": "#38BDF8", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "02/10/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tailwind CSS",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-woocommerce",
+                        "faColors": {"bg": "#96588A", "fill": "#EEE"}
+                    },
+                    "value": 75,
+                    "dates": {
+                        "start": "02/10/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "WooCommerce",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-wordpress",
+                        "faColors": {"bg": "#21759B", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "01/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "WordPress",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-joomla",
+                        "faColors": {"bg": "#A2D200", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "03/15/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Joomla",
+                            "info": null
+                        }
+                    }
+                }                
+            ]
+        },
+
+        {
+            "id": "business_project_management",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Business & Project Management and more"
+                },
+                "es": {
+                    "title": "Gestión Empresarial y de Proyectos y más"
+                },
+                "fr": {
+                    "title": "Gestion d'Entreprise et de Projets et plus"
+                },
+                "cn": {
+                    "title": "商业与项目管理及更多"
+                }
+            },
+        
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-tasks",
+                        "faColors": {"bg": "#0073b1", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "01/15/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Project Management",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-users",
+                        "faColors": {"bg": "#28a745", "fill": "#EEE"}
+                    },
+                    "value": 92,
+                    "dates": {
+                        "start": "03/10/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Team Leadership",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-chart-line",
+                        "faColors": {"bg": "#ff9900", "fill": "#EEE"}
+                    },
+                    "value": 88,
+                    "dates": {
+                        "start": "06/20/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Business Strategy",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-clock",
+                        "faColors": {"bg": "#6f42c1", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "08/30/2015"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Time Management",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-handshake",
+                        "faColors": {"bg": "#17a2b8", "fill": "#EEE"}
+                    },
+                    "value": 75,
+                    "dates": {
+                        "start": "10/10/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Stakeholder Management",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-cogs",
+                        "faColors": {"bg": "#f0ad4e", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "04/15/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Process Optimization",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-exclamation-triangle",
+                        "faColors": {"bg": "#d9534f", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "07/10/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Risk Management",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-headset",
+                        "faColors": {"bg": "#6610f2", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "01/05/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Customer Service",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-building",
+                        "faColors": {"bg": "#fd7e14", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "04/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BPO",
+                            "info": "Skilled in managing outsourced services and operations, including optimizing workflows, improving quality, and meeting client service level agreements (SLAs)."
+                        },
+                        "es": {
+                            "title": "BPO",
+                            "info": "Hábil en la gestión de servicios y operaciones subcontratados, incluyendo la optimización de flujos de trabajo, la mejora de la calidad y el cumplimiento de los acuerdos de nivel de servicio (SLA) con los clientes."
+                        },
+                        "fr": {
+                            "title": "BPO",
+                            "info": "Compétent dans la gestion des services et opérations externalisés, y compris l'optimisation des flux de travail, l'amélioration de la qualité et le respect des accords de niveau de service (SLA) avec les clients."
+                        },
+                        "cn": {
+                            "title": "BPO",
+                            "info": "擅长管理外包服务和运营，包括优化工作流程、提高质量，并满足客户服务水平协议（SLA）。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-life-ring",
+                        "faColors": {"bg": "#20c997", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "08/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "IT Desk Support",
+                            "info": "Proficient in providing technical support, troubleshooting hardware and software issues, and ensuring smooth operations for IT systems and end users."
+                        },
+                        "es": {
+                            "title": "Soporte de Escritorio de TI",
+                            "info": "Competente en proporcionar soporte técnico, solucionar problemas de hardware y software, y garantizar el funcionamiento adecuado de los sistemas de TI y los usuarios finales."
+                        },
+                        "fr": {
+                            "title": "Support de Bureau Informatique",
+                            "info": "Compétent pour fournir un support technique, résoudre les problèmes matériels et logiciels, et garantir le bon fonctionnement des systèmes informatiques et des utilisateurs finaux."
+                        },
+                        "cn": {
+                            "title": "IT桌面支持",
+                            "info": "精通提供技术支持，解决硬件和软件问题，确保IT系统和终端用户的顺利操作。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-lightbulb",
+                        "faColors": {"bg": "#f39c12", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fast Learner",
+                            "info": "Adapt quickly to new environments and technologies, continuously seeking opportunities to expand knowledge and improve skills."
+                        },
+                        "es": {
+                            "title": "Aprendiz Rápido",
+                            "info": "Me adapto rápidamente a nuevos entornos y tecnologías, buscando continuamente oportunidades para expandir el conocimiento y mejorar las habilidades."
+                        },
+                        "fr": {
+                            "title": "Apprenant Rapide",
+                            "info": "Je m'adapte rapidement à de nouveaux environnements et technologies, cherchant constamment des opportunités pour élargir mes connaissances et améliorer mes compétences."
+                        },
+                        "cn": {
+                            "title": "快速学习者",
+                            "info": "快速适应新环境和新技术，不断寻求扩展知识和提高技能的机会。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-arrow-up",
+                        "faColors": {"bg": "#28a745", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Growth Seeker",
+                            "info": "Driven by the pursuit of personal and professional growth, consistently looking for new challenges to enhance capabilities and contribute more effectively."
+                        },
+                        "es": {
+                            "title": "Buscador de Crecimiento",
+                            "info": "Impulsado por la búsqueda del crecimiento personal y profesional, constantemente en busca de nuevos desafíos para mejorar las capacidades y contribuir de manera más efectiva."
+                        },
+                        "fr": {
+                            "title": "Chercheur de Croissance",
+                            "info": "Motivé par la recherche de la croissance personnelle et professionnelle, recherchant constamment de nouveaux défis pour améliorer ses capacités et contribuer plus efficacement."
+                        },
+                        "cn": {
+                            "title": "成长追求者",
+                            "info": "追求个人和职业成长，始终寻找新的挑战以提高能力并更有效地贡献。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-ticket-alt",
+                        "faColors": {"bg": "#3498db", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "06/15/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Ticketing Systems",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-user-plus",
+                        "faColors": {
+                            "bg": "#28a745",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Active Directory",
+                            "info": "Skilled in managing and configuring Active Directory environments, ensuring seamless user authentication, access control, and system security within an organization."
+                        },
+                        "es": {
+                            "title": "Active Directory",
+                            "info": "Hábil en la gestión y configuración de entornos de Active Directory, asegurando una autenticación de usuarios sin problemas, control de acceso y seguridad del sistema dentro de una organización."
+                        },
+                        "fr": {
+                            "title": "Active Directory",
+                            "info": "Compétent dans la gestion et la configuration des environnements Active Directory, garantissant une authentification des utilisateurs fluide, un contrôle d'accès et une sécurité des systèmes au sein de l'organisation."
+                        },
+                        "cn": {
+                            "title": "Active Directory",
+                            "info": "擅长管理和配置 Active Directory 环境，确保组织内用户认证、访问控制和系统安全的顺利进行。"
+                        }
+                    }
+                }                                
+            ]
+        },        
+
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": { "title": "Languages" },
+                "es": { "title": "Idiomas" },
+                "fr": { "title": "Langues" },
+                "cn": { "title": "语言" }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/flags/fr.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "French",
+                            "info": "Native speaker with excellent communication and writing skills.",
+                            "tags": ["Native"]
+                        },
+                        "es": {
+                            "title": "Francés",
+                            "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
+                            "tags": ["Nativo"]
+                        },
+                        "fr": {
+                            "title": "Français",
+                            "info": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
+                            "tags": ["Natif"]
+                        },
+                        "cn": {
+                            "title": "法语",
+                            "info": "母语为法语，具有出色的沟通和写作能力。",
+                            "tags": ["母语"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/en.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "info": "Fluent in both spoken and written English; confident in professional communication.",
+                            "tags": ["Fluent"]
+                        },
+                        "es": {
+                            "title": "Inglés",
+                            "info": "Fluido en inglés hablado y escrito; seguro en la comunicación profesional.",
+                            "tags": ["Fluido"]
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
+                            "tags": ["Courant"]
+                        },
+                        "cn": {
+                            "title": "英语",
+                            "info": "英语口语和书面流利；在专业沟通中自信。",
+                            "tags": ["流利"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/zh.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "Chinese",
+                            "info": "Fair proficiency in Chinese; able to hold basic conversations and understand written text.",
+                            "tags": ["Fair"]
+                        },
+                        "es": {
+                            "title": "Chino",
+                            "info": "Competencia moderada en chino; puede mantener conversaciones básicas y entender textos escritos.",
+                            "tags": ["Moderado"]
+                        },
+                        "fr": {
+                            "title": "Chinois",
+                            "info": "Compétence modérée en chinois; capable de tenir des conversations basiques et comprendre des textes écrits.",
+                            "tags": ["Modéré"]
+                        },
+                        "cn": {
+                            "title": "中文",
+                            "info": "中文能力一般；可以进行基本对话并理解书面文本。",
+                            "tags": ["良好"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/es.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "Spanish",
+                            "info": "Basic understanding of Spanish; learning and improving.",
+                            "tags": ["Basic"]
+                        },
+                        "es": {
+                            "title": "Español",
+                            "info": "Comprensión básica del español; aprendiendo y mejorando.",
+                            "tags": ["Básico"]
+                        },
+                        "fr": {
+                            "title": "Espagnol",
+                            "info": "Compréhension de base de l'espagnol; en apprentissage et amélioration.",
+                            "tags": ["Basique"]
+                        },
+                        "cn": {
+                            "title": "西班牙语",
+                            "info": "西班牙语基础理解；正在学习和提高。",
+                            "tags": ["基础"]
+                        }
+                    }
+                }
+            ]
+        }        
+    ]
+}

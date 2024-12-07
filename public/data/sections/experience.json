@@ -1,0 +1,193 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+
+        "es": {
+            "title": "Experiencia",
+            "title_long_prefix": "Resumen de mi",
+            "title_long": "Experiencia **Laboral**"
+        },
+
+        "fr": {
+            "title": "Expérience",
+            "title_long_prefix": "Résumé de mon",
+            "title_long": "Parcours **Professionel**"
+        },
+
+        "cn": {
+            "title": "经验",
+            "title_long_prefix": "这是我的",
+            "title_long": "**职业** 经验"
+        }
+
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-briefcase",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Business and Project Development** Manager",
+                            "info": "Nanjing Siconi",
+                            "text": "Led multiple cross-functional teams in managing business operations and developing strategies for successful project execution. Focused on market analysis, resource allocation, and streamlining processes to improve efficiency and client satisfaction. Collaborated with clients to understand their needs and deliver tailored project solutions.",
+                            "tags": ["Project Management", "Business Strategy", "Leadership"]
+                        },
+                        "es": {
+                            "title": "Gerente de **Desarrollo de Negocios y Proyectos**",
+                            "info": "Nanjing Siconi",
+                            "text": "Lideré múltiples equipos multifuncionales en la gestión de operaciones comerciales y en el desarrollo de estrategias para la ejecución exitosa de proyectos. Me enfoqué en el análisis del mercado, la asignación de recursos y la optimización de procesos para mejorar la eficiencia y la satisfacción del cliente. Colaboré con los clientes para comprender sus necesidades y ofrecer soluciones personalizadas para los proyectos.",
+                            "tags": ["Gestión de Proyectos", "Estrategia Empresarial", "Liderazgo"]
+                        },
+                        "fr": {
+                            "title": "Responsable du **Développement des Affaires et des Projets**",
+                            "info": "Nanjing Siconi",
+                            "text": "J'ai dirigé plusieurs équipes interfonctionnelles pour gérer les opérations commerciales et élaborer des stratégies pour la réussite de l'exécution des projets. J'ai concentré mes efforts sur l'analyse du marché, l'allocation des ressources et l'optimisation des processus afin d'améliorer l'efficacité et la satisfaction des clients. J'ai collaboré avec les clients pour comprendre leurs besoins et fournir des solutions de projets sur mesure.",
+                            "tags": ["Gestion de Projets", "Stratégie d'Entreprise", "Leadership"]
+                        },
+                        "cn": {
+                            "title": "**商业与项目开发** 经理",
+                            "info": "Nanjing Scn",
+                            "text": "领导多个跨职能团队管理业务运营，制定成功项目执行的策略。专注于市场分析、资源分配，并简化流程以提高效率和客户满意度。与客户合作，了解他们的需求并提供量身定制的项目解决方案。",
+                            "tags": ["项目管理", "商业战略", "领导力"]
+                        }
+                    }
+
+
+                },
+                {
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-briefcase",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**IT System Admin**",
+                            "info": "Nanjing Zezhao",
+                            "text": "Managed and maintained the IT infrastructure of Nanjing Zezhao, ensuring system stability, handling server configurations, and providing technical support for both frontend and backend systems.",
+                            "tags": ["Linux", "Networking", "Cloud", "Virtualization", "Troubleshooting"]
+                        },
+                        "es": {
+                            "title": "Administrador de **Sistemas IT**",
+                            "info": "Nanjing Zezhao",
+                            "text": "Gestioné y mantuve la infraestructura IT de Nanjing Zezhao, asegurando la estabilidad del sistema, manejando configuraciones de servidores y proporcionando soporte técnico tanto para sistemas frontend como backend.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Administrateur **Système IT**",
+                            "info": "Nanjing Zezhao",
+                            "text": "J'ai géré et maintenu l'infrastructure IT de Nanjing Zezhao, en garantissant la stabilité du système, en configurant les serveurs et en fournissant un support technique pour les systèmes frontend et backend.",
+                            "tags": null
+                        },
+                        "cn": {
+                            "title": "**IT系统管理员**",
+                            "info": "南京泽兆医疗器械有限公司",
+                            "text": "负责管理和维护南京泽兆的IT基础设施，确保系统稳定性，处理服务器配置，并为前端和后端系统提供技术支持。",
+                            "tags": null
+                        }
+                    }
+
+                },
+                {
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-briefcase",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Field Associated** Engineer",
+                            "info": "Yealink",
+                            "text": "Worked as a Field Associated Engineer, responsible for troubleshooting and maintaining IT infrastructure on-site. Collaborated with cross-functional teams to ensure the proper installation, configuration, and support of hardware and software systems, contributing to efficient project execution.",
+                            "tags": ["Networking", "Troubleshooting", "Installation", "Field Support"]
+                        },
+                        "es": {
+                            "title": "Ingeniero **Asociado de Campo**",
+                            "info": "Yealink",
+                            "text": "Trabajé como Ingeniero Asociado de Campo, encargado de resolver problemas y mantener la infraestructura de TI en el lugar. Colaboré con equipos multifuncionales para asegurar la instalación, configuración y soporte adecuados de sistemas de hardware y software, contribuyendo a la ejecución eficiente de proyectos.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Ingénieur **Associé de Terrain**",
+                            "info": "Yealink",
+                            "text": "J'ai travaillé en tant qu'Ingénieur Associé de Terrain, responsable du dépannage et de la maintenance de l'infrastructure informatique sur site. J'ai collaboré avec des équipes transversales pour garantir l'installation, la configuration et le support appropriés des systèmes matériels et logiciels, contribuant ainsi à une exécution efficace des projets.",
+                            "tags": null
+                        },
+                        "cn": {
+                            "title": "**现场支持** 工程师",
+                            "info": "Yealink",
+                            "text": "作为现场支持工程师，负责现场排查和维护IT基础设施。与跨部门团队合作，确保硬件和软件系统的正确安装、配置和支持，推动项目高效执行。",
+                            "tags": null
+                        }
+                    }
+
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-briefcase",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**IT System** Admin",
+                            "info": "Congolese community",
+                            "text": "<p>Managing the IT infrastructure for the Congolese community, focusing on:</p> <ul><li>Designing and maintaining websites</li><li>Implementing security best practices to safeguard user data</li><li>Optimizing system performance and scalability</li><li>Monitoring and managing server uptime</li><li>Ensuring data backups and disaster recovery plans</li><li>Collaborating with developers for seamless integration of web services</li></ul> <p class='mt-3'>I ensure the security, functionality, and growth of the community's online presence by leveraging cutting-edge technologies and IT best practices.</p>",
+                            "tags": ["Web Development", "Security Best Practices", "System Optimization", "Server Management", "Data Backup"]
+                        },
+                        "es": {
+                            "title": "Administrador **de Sistemas IT**",
+                            "info": "Comunidad Congoleña",
+                            "text": "<p>Gestionando la infraestructura IT para la comunidad congoleña, con enfoque en:</p> <ul><li>Diseño y mantenimiento de sitios web</li><li>Implementación de mejores prácticas de seguridad para proteger los datos de los usuarios</li><li>Optimización del rendimiento y escalabilidad del sistema</li><li>Monitoreo y gestión de la disponibilidad del servidor</li><li>Garantizar copias de seguridad de los datos y planes de recuperación ante desastres</li><li>Colaboración con desarrolladores para una integración fluida de los servicios web</li></ul> <p class='mt-3'>Aseguro la seguridad, funcionalidad y crecimiento de la presencia en línea de la comunidad utilizando tecnologías de vanguardia y mejores prácticas IT.</p>",
+                            "tags": ["Desarrollo Web", "Mejores Prácticas de Seguridad", "Optimización del Sistema", "Gestión del Servidor", "Copia de Seguridad de Datos"]
+                        },
+                        "fr": {
+                            "title": "Administrateur **Systèmes IT**",
+                            "info": "Communauté Congolaise",
+                            "text": "<p>Gestion de l'infrastructure IT pour la communauté congolaise, avec un accent sur :</p> <ul><li>Conception et maintenance de sites Web</li><li>Mise en œuvre des meilleures pratiques de sécurité pour protéger les données des utilisateurs</li><li>Optimisation des performances et de la scalabilité du système</li><li>Surveillance et gestion du temps de disponibilité des serveurs</li><li>Garantir des sauvegardes de données et des plans de reprise après sinistre</li><li>Collaborer avec les développeurs pour une intégration fluide des services Web</li></ul> <p class='mt-3'>Je garantis la sécurité, la fonctionnalité et la croissance de la présence en ligne de la communauté en utilisant les technologies de pointe et les meilleures pratiques IT.</p>",
+                            "tags": ["Développement Web", "Meilleures Pratiques de Sécurité", "Optimisation du Système", "Gestion des Serveurs", "Sauvegarde des Données"]
+                        },
+                        "cn": {
+                            "title": "**IT系统** 管理员",
+                            "info": "刚果社区",
+                            "text": "<p>管理刚果社区的IT基础设施，重点关注：</p> <ul><li>设计和维护网站</li><li>实施安全最佳实践来保护用户数据</li><li>优化系统性能和扩展性</li><li>监控和管理服务器正常运行时间</li><li>确保数据备份和灾难恢复计划</li><li>与开发人员协作，确保Web服务的无缝集成</li></ul> <p class='mt-3'>通过利用先进的技术和IT最佳实践，我确保社区的在线存在安全、功能齐全并持续发展。</p>",
+                            "tags": ["网站开发", "安全最佳实践", "系统优化", "服务器管理", "数据备份"]
+                        }
+                    }
+
+                }
+            ]
+        }
+    ]
+}

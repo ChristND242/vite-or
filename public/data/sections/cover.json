@@ -1,0 +1,426 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Christ ND!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Christ ND!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Christ ND!**"
+        },
+
+        "cn": {
+            "title": "欢迎！",
+            "title_menu": "介绍",
+            "title_long_prefix": "您好...",
+            "title_long": "我是**Christ ND!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "PH",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "christnd@congolaisdenanjing.com",
+                    "links": [
+                        {"href": "mailto:christnd@congolaisdenanjing.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@",
+                    "links": [
+                        {"href": "https://github.com/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."},
+                "fr": {"title": "**Un peu** à propos de moi..."},
+                "cn": {"title": "关于我**的一些**..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I’m an IT reseacher with <b>a few years</b> of experience, specializing in <b>cybersecurity</b>, <b>network security</b>, and <b>systems administration</b>. I have hands-on experience with various technologies including <b>penetration testing</b>, <b>firewall management</b>, and <b>cryptography</b>.</p><p>My strong background in computer science allows me to approach challenges with a comprehensive understanding of systems and software security.</p><p>I’m excited to collaborate <b>with you!</b></p>"},
+                        "es": {"text": "<p>Soy un investigador TI con <b>algunos años</b> de experiencia, especializado en <b>ciberseguridad</b>, <b>seguridad de redes</b> y <b>administración de sistemas</b>. Tengo experiencia práctica con varias tecnologías, incluyendo <b>pruebas de penetración</b>, <b>gestión de cortafuegos</b> y <b>criptografía</b>.</p><p>Mi sólida formación en ciencias de la computación me permite abordar los desafíos con una comprensión integral de los sistemas y la seguridad del software.</p><p>¡Estoy emocionado de colaborar <b>contigo!</b></p>"},
+                        "fr": {"text": "<p>Je suis un chercheur de l'informatique avec <b>quelques années</b> d'expérience, spécialisé dans la <b>sécurité informatique</b>, la <b>sécurité des réseaux</b> et l'<b>administration des systèmes</b>. J'ai une expérience pratique avec diverses technologies, notamment les <b>tests de pénétration</b>, la <b>gestion des pare-feu</b> et la <b>cryptographie</b>.</p><p>Mon solide parcours en informatique me permet d'aborder les défis avec une compréhension approfondie des systèmes et de la sécurité des logiciels.</p><p>Je suis enthousiaste à l'idée de collaborer <b>avec vous!</b></p>"},
+                        "cn": {"text": "<p>我是一名具有<b>几年</b>经验的IT专业人士，专注于<b>网络安全</b>、<b>网络安全</b>和<b>系统管理</b>。我拥有多种技术的实践经验，包括<b>渗透测试</b>、<b>防火墙管理</b>和<b>密码学</b>。</p><p>我在计算机科学方面的扎实背景使我能够以全面的理解来解决系统和软件安全方面的挑战。</p><p>我期待着与<b>您</b>合作！</p>"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {"title": "Client **testimonials**"},
+                "es": {"title": "Testimonios de **clientes**"},
+                "fr": {"title": "Témoignages de **clients**"},
+                "cn": {"title": "**客户**推荐信"}
+            },
+
+            "items": [
+                {
+                    "value": "Jofret KEYE",
+                    "links": [
+                        {"href": "https://keye-services.com"}
+                    ],
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "CEO at <b>Keye Services</b>",
+                            "text": "Working with Christ was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
+                        },
+                        "es": {
+                            "info": "CEO en <b>Keye Services</b>",
+                            "text": "Trabajar con Christ fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
+                        },
+                        "fr": {
+                            "info": "PDG de <b>Keye Services</b>",
+                            "text": "Travailler avec Christ a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
+                        },
+                        "cn": {
+                            "info": "Keye Services 的总经理",
+                            "text": "与Christ合作是一次改变人生的经历。他在编程方面的技能和奉献精神不仅提升了我们的项目，也激励了整个团队。"
+                        }
+                    }
+                },
+
+                {
+                    "value": "Zhong Li",
+                    "links": [
+                        {"href": "#"}
+                    ],
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-user",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Lead Developer at <b>Siconi</b>",
+                            "text": "Having Christ on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                        },
+                        "es": {
+                            "info": "Desarrollador Principal en <b>GitHub </b>",
+                            "text": "Tener a Christ en nuestro equipo fue un activo invaluable. Sus profundas ideas sobre programación y su mentoría no solo elevaron nuestros proyectos, sino que también nos empoderaron para enfrentar cada desafío con confianza."
+                        },
+                        "fr": {
+                            "info": "Développeur Principal chez <b>GitHub </b>",
+                            "text": "Avoir Christ dans notre équipe a été un atout inestimable. Ses connaissances approfondies en programmation et son mentorat ont non seulement élevé nos projets, mais nous ont également permis de relever chaque défi avec confiance."
+                        },
+                        "cn": {
+                            "info": "<b>GitHub</b> 资深开发者",
+                            "text": "Christ在我们的团队中是一个宝贵的资产。他深厚的编程见解和指导不仅提升了我们的项目，也赋予我们自信和创造力，能够应对每一个挑战。"
+                        }
+                    }
+                },
+                
+                {
+                    "value": "Blaise Richard",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-user",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Managing Director at <b>Qr pour Tous</b>",
+                            "text": "Collaborating with Christ was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
+                        },
+                        "es": {
+                            "info": "Directora General en <b>Dingga</b>",
+                            "text": "Colaborar con Christ fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
+                        },
+                        "fr": {
+                            "info": "Directrice Générale chez <b>Dingga</b>",
+                            "text": "Collaborer avec Christ a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
+                        },
+                        "cn": {
+                            "info": "丁加总经理",
+                            "text": "与Christ的合作是我们开发过程中的一次重大转折。他的专业知识和解决问题的能力对我们的成功至关重要。"
+                        }
+                    }
+                },
+                
+                {
+                    "value": "Henry V",
+                    "links": [
+                        {"href": "#"}
+                    ],
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-user",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Creative Director at <b>Pona Ekolo</b>",
+                            "text": "Christ's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
+                        },
+                        "es": {
+                            "info": "Directora Creativa en <b>Dribbble</b>",
+                            "text": "La atención al detalle de Christ y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
+                        },
+                        "fr": {
+                            "info": "Directrice Créative chez <b>Dribbble</b>",
+                            "text": "L'attention aux détails de Christ et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
+                        },
+                        "cn": {
+                            "info": "<b>Dribbble</b> 创意总监",
+                            "text": "Christ对细节的关注和创新思维为我们的设计过程带来了全新的视角。他真正提升了我们团队的工作，并帮助我们交付了超出预期的成果。"
+                        }
+                    }
+                }
+                
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" },
+                "fr": { "title": "Intérêts **personnels** " },
+                "cn": { "title": "个人 **兴趣爱好**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-futbol",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Playing football",
+                            "info": "Exploring different playing styles and improving my skills."
+                        },
+                        "es": {
+                            "title": "Jugar al fútbol",
+                            "info": "Explorando diferentes estilos de juego y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jouer au football",
+                            "info": "Explorer différents styles de jeu et améliorer mes compétences."
+                        },
+                        "cn": {
+                            "title": "踢足球",
+                            "info": "探索不同的踢球风格并提高我的技能。"
+                        }
+                    }
+                },    
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-gamepad",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Gaming (PlayStation)",
+                            "info": "Exploring different games and improving my skills."
+                        },
+                        "es": {
+                            "title": "Juegos (PlayStation)",
+                            "info": "Explorando diferentes juegos y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jeux vidéo (PlayStation)",
+                            "info": "Explorer différents jeux et améliorer mes compétences."
+                        },
+                        "cn": {
+                            "title": "玩游戏（PlayStation）",
+                            "info": "探索不同的游戏并提高我的技能。"
+                        }
+                    }
+                },               
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-utensils",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Cooking",
+                            "info": "Exploring different recipes and improving my culinary skills."
+                        },
+                        "es": {
+                            "title": "Cocina",
+                            "info": "Explorando diferentes recetas y mejorando mis habilidades culinarias."
+                        },
+                        "fr": {
+                            "title": "Cuisine",
+                            "info": "Explorer différentes recettes et améliorer mes compétences culinaires."
+                        },
+                        "cn": {
+                            "title": "烹饪",
+                            "info": "探索不同的食谱并提高我的烹饪技能。"
+                        }
+                    }
+                },                
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-book",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Reading",
+                            "info": "Exploring different genres and improving my knowledge."
+                        },
+                        "es": {
+                            "title": "Leer",
+                            "info": "Explorando diferentes géneros y mejorando mi conocimiento."
+                        },
+                        "fr": {
+                            "title": "Lire",
+                            "info": "Explorer différents genres et améliorer mes connaissances."
+                        },
+                        "cn": {
+                            "title": "阅读",
+                            "info": "探索不同的书籍类型并提高我的知识。"
+                        }
+                    }
+                },
+                
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Coding",
+                            "info": "Learning programming languages and developing software."
+                        },
+                        "es": {
+                            "title": "Codificación",
+                            "info": "Aprendiendo lenguajes de programación y desarrollando software."
+                        },
+                        "fr": {
+                            "title": "Programmation",
+                            "info": "Apprendre des langages de programmation et développer des logiciels."
+                        },
+                        "cn": {
+                            "title": "编程",
+                            "info": "学习编程语言并开发软件。"
+                        }
+                    }
+                },                
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-music",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Music",
+                            "info": "Exploring different genres and improving my musical skills."
+                        },
+                        "es": {
+                            "title": "Música",
+                            "info": "Explorando diferentes géneros y mejorando mis habilidades musicales."
+                        },
+                        "fr": {
+                            "title": "Musique",
+                            "info": "Explorer différents genres et améliorer mes compétences musicales."
+                        },
+                        "cn": {
+                            "title": "音乐",
+                            "info": "探索不同的音乐风格并提高我的音乐技能。"
+                        }
+                    }
+                }                
+            ]
+        }
+    ]
+}
